@@ -4,8 +4,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.js'
 import Home from './routes/Home'
 import Contact from './routes/Contact'
-import Company from './pages/Company.jsx'
-import NewProject from './pages/NewProject.jsx';
+import Projects from './routes/Projects.jsx'
+import Company from './routes/Company.jsx'
+import NewProject from './routes/NewProject.jsx';
 import ErrorPage from './routes/ErrorPage.jsx';
 import './index.css';
 
@@ -21,12 +22,16 @@ const router = createBrowserRouter([
         element: <Home />
       },
       {
-        path: "/contact",
-        element: <Contact />
+        path: "/projects",
+        element: <Projects />
       },
       {
         path: "/company",
         element: <Company />
+      },
+      {
+        path: "/contact",
+        element: <Contact />
       },
       {
         path: "/newproject",
@@ -34,9 +39,9 @@ const router = createBrowserRouter([
       },
 
       // nested routes
-      // {
-      //   path: '/contact/:id'
-      // }
+      {
+        path: '/contact/:id'
+      }
 
     ]
   },
