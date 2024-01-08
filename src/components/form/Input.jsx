@@ -16,8 +16,9 @@ const Input = ({
 				id={id}
 				type={type}
 				name={name}
-				value={value}
 				placeholder={placeholder}
+				onChange={handleOnChange}
+				value={value}
 			></input>
 		</div>
 	);

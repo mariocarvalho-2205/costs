@@ -11,7 +11,7 @@ function Select ({
 	return (
 		<div className={styles.form_control}>
 			<label htmlFor={id}>{text}:</label>
-			<select name={name} id={id}>
+			<select name={name} id={id} onChange={handleOnChange} value={value || ""}>
 				{options.map((option) => (
                 	<option value={option.id} key={option.id}>{option.name}</option>
 				))}
