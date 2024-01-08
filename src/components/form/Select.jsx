@@ -12,7 +12,9 @@ function Select ({
 		<div className={styles.form_control}>
 			<label htmlFor={id}>{text}:</label>
 			<select name={name} id={id}>
-                <option value={value}>Selecione uma opção</option>
+				{options.map((option) => (
+                	<option value={option.id} key={option.id}>{option.name}</option>
+				))}
             </select>
 		</div>
 	);
