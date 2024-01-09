@@ -12,7 +12,7 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
 		fetch("http://localhost:5000/categories", {
       method: "GET",
       headers: {
-        "Content-Type": "aplication/json",
+        "Content-Type": "application/json",
       },
     })
       .then((resp) => resp.json())
