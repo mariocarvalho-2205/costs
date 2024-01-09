@@ -26,7 +26,7 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
 
   const submit = (e) => {
     e.preventDefault()
-    // handleSubmit(project)
+    handleSubmit(project)
     console.log(project)
   }
 
@@ -56,7 +56,7 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
         name="budget"
         placeholder="Insira o orçamento total"
         handleOnChange={handleChange}
-        value={project.budget}
+        value={project.budget ? project.budget : ''}
       />
 
       <Select

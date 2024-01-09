@@ -1,9 +1,9 @@
-// import { useHistory } from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
 import styles from './NewProject.module.css';
 import ProjectForm from '../components/project/ProjectForm';
 
 function NewProject () {
-  // const history = useHistory('')
+  const history = useHistory()
 
   function creatPost(project) {
     // initialize cost and 
@@ -21,6 +21,7 @@ function NewProject () {
     .then((data) => {
       console.log(data)
       // redirect
+      history.push('/projects', { message: 'Projeto criado com sucesso!' })
     })
     .catch((err) => console.log(err))
   }
