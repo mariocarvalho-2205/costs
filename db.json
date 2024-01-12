@@ -1,8 +1,8 @@
 {
   "projects": [
     {
-      "name": "teste",
-      "budget": "4534",
+      "name": "manutenção",
+      "budget": "2344",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
@@ -12,8 +12,8 @@
       "id": 1
     },
     {
-      "name": "manutenção",
-      "budget": "98756",
+      "name": "testes",
+      "budget": "9855",
       "cost": 0,
       "services": [],
       "id": 2
