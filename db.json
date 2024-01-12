@@ -1,86 +1,22 @@
 {
   "projects": [
     {
-      "name": "casa",
-      "budget": "3546",
-      "cost": 0,
-      "services": [],
-      "id": 1
-    },
-    {
-      "name": "meu projeto 2",
-      "budget": "25356",
+      "name": "teste",
+      "budget": "4534",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": [],
+      "id": 1
+    },
+    {
+      "name": "manutenção",
+      "budget": "98756",
+      "cost": 0,
+      "services": [],
       "id": 2
-    },
-    {
-      "name": "mais um projeto",
-      "budget": "7800",
-      "category": {
-        "id": "3",
-        "name": "Desing"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
-      "name": "teste",
-      "budget": "333",
-      "cost": 0,
-      "services": [],
-      "id": 4
-    },
-    {
-      "name": "pouy",
-      "budget": "6541",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 5
-    },
-    {
-      "name": "nova",
-      "budget": "9514",
-      "cost": 0,
-      "services": [],
-      "id": 6
-    },
-    {
-      "name": "massa",
-      "budget": "650",
-      "cost": 0,
-      "services": [],
-      "id": 7
-    },
-    {
-      "name": "teste",
-      "budget": "4343",
-      "cost": 0,
-      "services": [],
-      "id": 8
-    },
-    {
-      "name": "sdfsdf",
-      "budget": "343",
-      "cost": 0,
-      "services": [],
-      "id": 9
-    },
-    {
-      "name": "agora",
-      "budget": "80",
-      "cost": 0,
-      "services": [],
-      "id": 10
     }
   ],
   "categories": [
