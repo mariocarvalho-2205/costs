@@ -17,6 +17,13 @@
       "cost": 0,
       "services": [],
       "id": 2
+    },
+    {
+      "name": "services",
+      "budget": "18500",
+      "cost": 0,
+      "services": [],
+      "id": 3
     }
   ],
   "categories": [
