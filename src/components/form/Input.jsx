@@ -1,19 +1,18 @@
 import styles from "./Input.module.css";
 
 const Input = ({
-	id,
 	type,
 	text,
 	name,
-	value,
 	placeholder,
 	handleOnChange,
+	value
 }) => {
 	return (
 		<div className={styles.form_control}>
-			<label htmlFor={id}>{text}:</label>
+			<label htmlFor={name}>{text}:</label>
 			<input
-				id={id}
+				id={name}
 				type={type}
 				name={name}
 				placeholder={placeholder}

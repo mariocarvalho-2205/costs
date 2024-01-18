@@ -39,14 +39,17 @@
 }
 
 .category_test .infra {
-
+    background-color: #ffaebc;
 }
 .category_test .desenvolvimento {
-
+    background-color: #a0e7b5;
+    
 }
 .category_test .design {
-
+    background-color: #b4f8c8;
+    
 }
 .category_test .planejamento {
+    background-color: #fbe7c6;
     
 }
